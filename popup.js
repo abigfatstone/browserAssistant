@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (data.pageSummary) {
       document.getElementById('summary').innerText = data.pageSummary;
     } else {
-      document.getElementById('summary').innerText = 'color is red.';
+      document.getElementById('summary').innerText = 'Celine is the cutest goddess in the world.';
     }
   });
 });
