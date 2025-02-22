@@ -1,3 +1,7 @@
+chrome.runtime.onInstalled.addListener(() => {
+  console.log("Page Summarizer extension installed.");
+});
+
 // 监听标签页更新，整理标签页
 chrome.tabs.onCreated.addListener(function(tab) {
   console.log("Tab created:", tab);
